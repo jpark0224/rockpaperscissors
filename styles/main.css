@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ee959e;
+  color: white;
+  font-family: "Readex Pro", sans-serif;
+  font-size: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+}
+
+img {
+  display: flex;
+  max-width: 200px;
+  height: auto;
+  margin-left: 30px;
+}
+
+.hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+.mousedown {
+  transform: scale(0.98);
+  transition-duration: 0.5s;
+}
+
+.reset {
+  font-size: 2rem;
+  color: #f15480;
+  cursor: pointer;
+}
